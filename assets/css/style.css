@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-indent: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+#barra {
+    position: fixed;
+    width: 5px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    border-radius: 3px;
+    background: linear-gradient(to top, #F00, #0F0, #00F);
+}
